@@ -6,12 +6,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="description" content="site feito em nexts.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Bem vindo ao <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
